@@ -1,0 +1,27 @@
+{% extends "AppCoder/inicio.html"%}
+{% load static %}
+{% block herencia %}
+    <br>
+    <p style="text-align: center;"><h1>Ver / Ingresar Mascotas en Centro de Salud</h1></p>
+
+   {% if mascotas %}
+
+        <ul>
+        {% for m in mascotas %}
+            <li>{{m}}</li>
+            <button>
+                <a href="{% url 'eliminarMascota' m.nombreAnimal %}">Eliminar ❌ | </a>
+                <a href="{% url 'editarMascota' m.nombreAnimal %}">Actualizar ✅ </a>
+            </button>
+            <br>
+            -----------------------------------------------------------------------
+        {% endfor %}
+        </ul>
+        <br>
+        <br>
+   {% endif %}
+    <p style="text-align: center;">
+        <a href="formularioMascota">Ingresar Mascota al Centro de Salud 🐱</a>
+    </p>
+
+   {% endblock %}

@@ -1,0 +1,24 @@
+{% extends "AppCoder/inicio.html"%}
+{% load static %}
+{% block herencia %}
+    <br>
+    <h1>Nomina de Veterinarios Activos</h1>
+    <ul>
+    {% for v in veterinarios %}
+        <li>{{v}}</li>
+        <!--
+        <button>
+            <a href="">Eliminar ❌ | </a>
+            <a href="">Actualizar ✅</a>
+        </button>>
+        <br>
+        -->
+        -----------------------------------------------------------------------
+    {% endfor %}
+    </ul>
+    <p style="text-align: center;">
+        <a href="formularioVeterinario">Alta Nuevo Veterinario en Nomina 👩‍🔬</a>    
+    </p>
+    <br>
+    <br>
+{% endblock %}

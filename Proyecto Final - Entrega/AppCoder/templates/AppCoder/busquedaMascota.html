@@ -1,0 +1,18 @@
+{% extends "AppCoder/inicio.html"%}
+
+{% load static %}
+
+{% block herencia %}
+
+    <br>
+    <p><h1>Para consultar la historia medica ingrese el nombre de la mascota:</h1></p>
+
+    <form action="/AppCoder/buscar/" method="GET">
+
+        <input type="text", name="nombreAnimal", id="nombreAnimal">
+
+        <input type="submit", value="Buscar Historia Clinica">
+
+    </form>
+
+{% endblock %}

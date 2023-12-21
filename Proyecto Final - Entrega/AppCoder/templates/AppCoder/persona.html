@@ -1,0 +1,25 @@
+{% extends "AppCoder/inicio.html"%}
+{% load static %}
+{% block herencia %}
+    <br>
+    <p style="text-align: center;"><h1>Listado de dueños de mascotas</h1></p>
+    
+    <ul>   
+    {% for p in personas %}
+        <li>{{p}}</li>
+        <button>
+            <a href="{% url 'eliminarPersona' p.nombre %}">Eliminar ❌| </a>
+            <a href="{% url 'editarPersona' p.nombre %}">Actualizar ✅</a>
+        </button>
+        <br>
+        -----------------------------------------------------------------------
+    {% endfor %}      
+    </ul>    
+
+    <p style="text-align: center;">
+        <a href="formularioPersona">Cargar nuevo Dueño de Mascota 🐱</a>
+        
+    </p>
+    <br>
+    <br>
+{% endblock %}
