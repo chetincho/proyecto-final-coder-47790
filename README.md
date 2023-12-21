@@ -15,7 +15,8 @@ ________________________________________________________________________________
 En este archivo se definen los modelos utilizados en el proyecto.
 
 Modelo Animal: 
-Campos: 
+Campos:
+
     -nombreAnimal: Tipo char, nombre de la mascota
     -edad: Tipo integer, edad de la mascota
     -tipo: Tipo char, ej: perro, gato, iguana, etc
@@ -26,6 +27,7 @@ Campos:
 
 Modelo Persona: 
 Campos: 
+
     -nombre: Tipo char, corresponde al nombre del dueño de la mascota
     -apellido: Tipo char, es el apellido del dueño de la mascota
     -telefono: Tipo integer, numero de celular/telefono del dueño de la mascota
