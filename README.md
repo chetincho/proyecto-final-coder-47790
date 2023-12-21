@@ -1,15 +1,15 @@
 # Proyecto-Final-Python-Martin-Adrian-Ferraguti.
 
-El presente proyecto fue desarrollado utilizando Python junto con el framework Django. 
+El presente proyecto fue desarrollado utilizando Python junto con el framework Django. <br>
 Se trata de una app web cuyo objetivo funcional trata de resolver el seguimiento de las transacciones operativas de la Veterinaria { Animal Center } de Bahía Blanca.
 
 # Video.
-https://youtu.be/_bYnCR9Y77o
-Web de login: http://127.0.0.1:8000/AppCoder/login?next=/AppCoder/
+https://youtu.be/_bYnCR9Y77o <br>
+Web de login: http://127.0.0.1:8000/AppCoder/login?next=/AppCoder/ <br>
 
-Datos de login utilizado durante la demo:
-User: mferraguti
-Pass: pepelis84
+Datos de login utilizado durante la demo: <br>
+User: mferraguti <br>
+Pass: pepelis84 <br>
 _______________________________________________________________________________________________________________________________________________________________________
 # Models.py:
 En este archivo se definen los modelos utilizados en el proyecto.
@@ -35,6 +35,7 @@ Campos:
 
 Modelo Veterinario:
 Campos:
+
     -veterinario: Tipo char, nombre del veterinario
     -apellidoVet: Tipo char, apellido del veterinario
     -matricula: Tipo integer, numero de matrícula del veterinario
@@ -70,7 +71,8 @@ ________________________________________________________________________________
 
 
 # Datos del Autor:
-Nombre completo: Martin Adrian Ferraguti
-Comisión: 47790
-Email: martin.ferraguti@gmail.com
-Linkedin: https://www.linkedin.com/in/martin-ferraguti/
+Nombre completo: Martin Adrian Ferraguti <br>
+Comisión: 47790 <br>
+Email: martin.ferraguti@gmail.com <br>
+Linkedin: https://www.linkedin.com/in/martin-ferraguti/ <br>
+
